@@ -4,6 +4,12 @@
 * 6 column responsive grid
 */
 
+
+/* ==========================================================================
+   Responsive Grid Styles
+   ========================================================================== */
+
+
 .container {
     margin-top: 30px !important;
 }
@@ -64,19 +70,42 @@
 }
 
 
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media(min-width: 1440px) {
+    .send-btn {
+        width: 40% !important;
+    }
+    
+    .modal-content {
+        width: 60% !important;
+    }
+}
+
 @media (min-width: 1025px) {
+    body {
+        margin: 20px 18% !important;
+    }
+
     .info-list {
         font-size: medium !important;
     }
 }
 
-@media only screen and (max-width: 1024px)  and  (min-height: 960px){
+@media only screen and (max-width: 1024px) {
     .send-btn {
         width: 50% !important;
     }
 
     .info-list {
-        font-size: medium !important;
+        margin-left: -20px;
+        font-size: small !important;
+    }
+
+    .modal-content {
+        width: 70% !important;
     }
 }
 
@@ -88,6 +117,10 @@
     .col-3 {
         width: 100%;
         text-align: center;
+    }
+
+    .modal-content {
+        width: 70% !important;
     }
 }
 
@@ -107,6 +140,10 @@
     .send-btn {
         width: 50% !important;
     }
+
+    .modal-content {
+        width: 70% !important;
+    }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 481px) {
@@ -114,16 +151,25 @@
         margin: 20px 5% !important;
     }
 
+    #video-img-col {
+        margin-left: 0 !important;
+    }
+
     .student-img {
         height: 100px;
     }
 
     .info-list {
-        font-size: x-small !important;
+        margin-left: -20px;
+        font-size: small !important;
     }
 
     .send-btn {
         width: 60% !important;
+    }
+
+    .modal-content {
+        width: 70% !important;
     }
 }
 
@@ -154,4 +200,35 @@
         font-size: small !important;
         width: 100% !important;
     }
+
+    .modal-content {
+        width: 65% !important;
+    }
+
+    .modal-content h1 {
+        font-size: 1.50em !important;
+    }
+
+    .modal-input {
+        height: 40px !important;
+        font-size: 1.20em !important;
+    }
+
+    .input-icon {
+        margin-right: 0 !important;
+        margin-top: -40px !important;
+    }
 }
+
+@media only screen and (max-width: 320px) {
+    .modal-content {
+        width: 75% !important;
+        padding: 10px !important;
+    }
+
+    .close {
+        margin-top: -30px !important;
+        margin-right: -30px !important;
+    }
+}
+
