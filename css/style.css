@@ -19,6 +19,10 @@ body {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+hr {
+    border: none;
+    border-bottom: 1px solid #30363d;
+}
 .logo {
     width: auto;
     height: 25px;
@@ -42,6 +46,10 @@ body {
     font-weight: 300;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .primary {
     color: #50f8df;
 }
@@ -55,4 +63,27 @@ body {
     margin-top: 30px;
     width: 95%;
     cursor: pointer;
+}
+
+
+/* ==========================================================================
+   Section 2 Element Styles
+   - styles for #section-2
+   ========================================================================== */
+
+.box {
+    border: 1px solid #30363d;
+    height: 100%;
+    padding: 20px 0px;;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.info-list {
+    list-style: none;
+    text-align: left;
+    font-size: small;
+    color: #9da3aa;
+    line-height: 23px;
 }
