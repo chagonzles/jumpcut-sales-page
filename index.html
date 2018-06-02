@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jumpcut</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,600,600i,700,700i" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet" >
     <link href="css/style.css" rel="stylesheet">
@@ -80,10 +81,10 @@
 
             
             <div class="text-center">
-                <button class="send-btn">
-                    <img src="img/youtube-icon.png" alt=""> 
+                <button class="send-btn" id="send-video-btn">
+                    <img src="img/youtube-icon.png" class="left-align" alt=""> 
                         <span>Send me the FREE videos</span>
-                    <img src="img/arrow.png" alt="">
+                    <img src="img/arrow.png" class="right-align" alt="">
                 </button>
                 <p class="small">Video series free for next few days</p>
             </div>
@@ -101,6 +102,40 @@
         </div><!-- /#footer -->
         
     </div><!-- /.container -->
+
+
+     <!-- The Modal -->
+     <div id="myModal" class="modal m-fadeOut">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+                <form action="#" method="POST" id="modal-form">
+                        <div>
+                            <h1 class="text-center">Enter your info below to get free instant access..</h1>
+                        </div>
+
+                        <div class="modal-input-container">
+                            <input type="text" class="modal-input" id="name" name="name" placeholder="My First Name Is...">
+                            <img src="img/name.png" class="input-icon" alt="">
+                        </div>
+                      
+                        <div class="modal-input-container">
+                            <input type="email" class="modal-input" id="email" name="email" placeholder="My Email Is...">
+                            <img src="img/email.png" class="input-icon" alt="">
+                        </div>
+                        
+                        <div>
+                            <button class="modal-send-button" id="send-button">
+                                    <h2>GIVE ME THE FIRST FREE VIDEO</h2>
+                            </button>
+                            <p class="modal-form-note"><i class="fa fa-lock"></i>  We'll keep your information private.</p>
+                        </div>
+                </form>
+               
+            </div>
+          
+        </div>
     
     <script src="js/script.js"></script>
 </body>

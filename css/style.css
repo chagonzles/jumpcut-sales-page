@@ -44,6 +44,13 @@ hr {
     margin: 40px 0;
 }
 
+.left-align {
+    float: left;
+}
+
+.right-align {
+    float: right;
+}
 
 /* ==========================================================================
    Text/Font Styles
@@ -99,7 +106,7 @@ hr {
 .box {
     border: 1px solid #30363d;
     height: 100%;
-    padding: 30px 0px 20px;
+    padding: 30px 0px 30px;
     width: 100%;
     text-align: center;
     margin-bottom: 25px;
@@ -129,7 +136,8 @@ hr {
     background: #0c131b;
     color: #fff;
     border: 3px solid #50f8df;
-    width: 50%;
+    width: 30%;
+    cursor: pointer;
 }
 
 .send-btn > span {
@@ -137,5 +145,121 @@ hr {
     margin: 1%;
 }
 
+/* ==========================================================================
+   Modal Styles
+   - styles for modal
+   ========================================================================== */
 
+#myModal {
+    display: none;
+}
+
+/* The Modal (background) */
+.modal {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    border-color: rgba(0, 0, 0, 0.77);
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 100px auto;
+    padding: 30px;
+    border: 5px solid #888;
+    border-radius: 10px;
+    width: 40%;
+}
+
+.m-fadeOut {
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(1);
+    transition:  all .3s ease-in-out;
+}
+
+.m-fadeIn {
+    visibility: visible;
+    opacity: 1;
+    top: 0px;
+    transform: scale(1.1);
+    transition:  all .3s ease-in-out;
+  }
+
+/* The Close Button */
+.close {
+    background: black;
+    color: #fff;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+    width: 35px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: -50px;
+    margin-right: -50px;
+}
+
+.close:hover,
+.close:focus {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal {
+    color: #000;
+}
+
+.modal-send-button {
+    background: #e33a2b !important;
+    color: #fff;
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid #b62e22;
+    cursor: pointer;
+}
+
+.modal-input {
+    width: 100%;
+    height: 60px;
+    border: 3px solid #c0c0c0;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.50em;
+    color: #747474;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    background: none;
+}
+
+.modal-input:focus {
+    border-color: #42B0E2;
+}
+
+.input-icon {
+    display: inline;
+    float: right;
+    margin-right: 20px;
+    margin-top: -50px;
+}
+
+.modal-input-container {
+    margin: 20px 0px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    padding-right: 7px;
+}
+
+.modal-form-note {
+    color: #8f8f8f;
+    text-align: center;
+}
 

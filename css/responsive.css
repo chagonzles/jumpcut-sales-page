@@ -64,6 +64,22 @@
 }
 
 
+@media (min-width: 1025px) {
+    .info-list {
+        font-size: medium !important;
+    }
+}
+
+@media only screen and (max-width: 1024px)  and  (min-height: 960px){
+    .send-btn {
+        width: 50% !important;
+    }
+
+    .info-list {
+        font-size: medium !important;
+    }
+}
+
 @media only screen and (max-width: 1023px) {
     body {
         margin: 20px 5% !important;
@@ -86,6 +102,10 @@
 
     .info-list {
         font-size: x-small !important;
+    }
+
+    .send-btn {
+        width: 50% !important;
     }
 }
 
@@ -123,6 +143,10 @@
     .col-5, 
     .col-6 {
         width: 100%;
+    }
+
+    .info-list {
+        font-size: small !important;
     }
 
     .send-btn {
