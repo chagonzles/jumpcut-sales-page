@@ -14,7 +14,7 @@
     clear: both;
     margin: 0;
     border-bottom: 1px solid #30363d;
-    padding: 10px 0 100px 0;
+    padding: 10px 0 85px 0;
 }
 
 .col {
@@ -63,6 +63,18 @@
 
 .col-1 {
     width: 14.16%;
+}
+
+
+@media only screen and (max-width: 1023px) {
+    body {
+        margin: 20px 10% !important;
+    }
+
+    .col-3 {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 480px) {

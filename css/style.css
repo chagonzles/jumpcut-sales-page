@@ -1,8 +1,14 @@
 /**
 * JUMPCUT SALES PAGE CSS
-* 
+*
+* Author: Charlene Gonzales 2018
 */
 
+
+/* ==========================================================================
+   Layout Styles 
+   - styles general and layout elements
+   ========================================================================== */
 
 body {
     background: #0c131b;
@@ -17,6 +23,33 @@ body {
     width: auto;
     height: 25px;
 }
+
+
+/* ==========================================================================
+   Text/Font Styles
+   - styles for text elements
+   ========================================================================== */
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.primary {
+    color: #50f8df;
+}
+
+/* ==========================================================================
+   Section 1 Element Styles
+   - styles for #section-1
+   ========================================================================== */
 
 #video-img {
     margin-top: 30px;
