@@ -1,0 +1,81 @@
+/**
+* RESPONSIVE CSS
+* 
+* 6 column responsive grid
+*/
+
+.container {
+    margin-top: 30px;
+    border: none !important;
+}
+
+.container, 
+.section {
+    clear: both;
+    margin: 0;
+    border-bottom: 1px solid #30363d;
+    padding: 10px 0 100px 0;
+}
+
+.col {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 3%;
+}
+
+.col:first-child {
+    margin-left: 0;
+}
+
+.group:before, 
+.group:after { 
+    content: ""; 
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}
+
+.col-6 {
+    width: 100%;
+}
+
+.col-5 {
+    width: 82.83%;
+}
+
+.col-4 {
+    width: 65.66%;
+}
+
+.col-3 {
+    width: 48.5%;
+}
+
+.col-2 {
+    width: 31.33%;
+}
+
+.col-1 {
+    width: 14.16%;
+}
+
+@media only screen and (max-width: 480px) {
+    .col { 
+        margin: 1% 0 1% 0%;
+    }
+
+    .col-1, 
+    .col-2, 
+    .col-3, 
+    .col-4, 
+    .col-5, 
+    .col-6 {
+        width: 100%;
+    }
+}

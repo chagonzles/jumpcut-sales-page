@@ -1,0 +1,25 @@
+/**
+* JUMPCUT SALES PAGE CSS
+* 
+*/
+
+
+body {
+    background: #0c131b;
+    color: #fff;
+    height: 100%;
+    margin: 30px 15%;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.logo {
+    width: auto;
+    height: 25px;
+}
+
+#video-img {
+    margin-top: 30px;
+    width: 95%;
+    cursor: pointer;
+}
