@@ -6,7 +6,7 @@
 
 
 /* ==========================================================================
-   Layout Styles 
+   Layout Styles (Header, Footer)
    - styles general and layout elements
    ========================================================================== */
 
@@ -23,9 +23,25 @@ hr {
     border: none;
     border-bottom: 1px solid #30363d;
 }
+
 .logo {
     width: auto;
     height: 25px;
+    margin-bottom: 10px;
+}
+
+#footer {
+    font-weight: 300;
+    font-size: x-small;
+    margin: 40px 0;
+}
+
+#disclaimer {
+    margin-top: -5px;
+}
+
+#copyright {
+    margin: 40px 0;
 }
 
 
@@ -54,6 +70,11 @@ hr {
     color: #50f8df;
 }
 
+.default {
+    color: #9da3aa;
+}
+
+
 /* ==========================================================================
    Section 1 Element Styles
    - styles for #section-1
@@ -74,10 +95,14 @@ hr {
 .box {
     border: 1px solid #30363d;
     height: 100%;
-    padding: 20px 0px;;
+    padding: 30px 0px 20px;
     width: 100%;
     text-align: center;
     margin-bottom: 25px;
+}
+
+.student-img {
+    height: 120px;
 }
 
 .info-list {
@@ -87,3 +112,20 @@ hr {
     color: #9da3aa;
     line-height: 23px;
 }
+
+.send-btn {
+    font-size: large;
+    padding: 10px;
+    margin-top: 20px;
+    background: #0c131b;
+    color: #fff;
+    border: 3px solid #50f8df;
+}
+
+.send-btn > span {
+    vertical-align: top;
+    margin: 20px;
+}
+
+
+
