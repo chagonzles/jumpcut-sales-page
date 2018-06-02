@@ -50,6 +50,10 @@ hr {
    - styles for text elements
    ========================================================================== */
 
+.small {
+    font-size: small;
+}
+
 .semi-bold {
     font-weight: 600;
 }
@@ -101,6 +105,10 @@ hr {
     margin-bottom: 25px;
 }
 
+.box h3 {
+    height: 35px;
+}
+
 .student-img {
     height: 120px;
 }
@@ -115,16 +123,18 @@ hr {
 
 .send-btn {
     font-size: large;
+    font-weight: 600;
     padding: 10px;
     margin-top: 20px;
     background: #0c131b;
     color: #fff;
     border: 3px solid #50f8df;
+    width: 50%;
 }
 
 .send-btn > span {
     vertical-align: top;
-    margin: 20px;
+    margin: 1%;
 }
 
 

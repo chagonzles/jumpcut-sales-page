@@ -101,6 +101,10 @@
     .info-list {
         font-size: x-small !important;
     }
+
+    .send-btn {
+        width: 60% !important;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -119,5 +123,11 @@
     .col-5, 
     .col-6 {
         width: 100%;
+    }
+
+    .send-btn {
+        padding: 5px !important;
+        font-size: small !important;
+        width: 100% !important;
     }
 }
